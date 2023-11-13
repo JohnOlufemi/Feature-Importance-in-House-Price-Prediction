@@ -14,5 +14,7 @@ To predict and extract the necessary information and insights from a dataset, va
 
 Information provided in Figures 1 and 2 reveals the values between the truth and predicted regression values of the two selected algorithms. The figures show that the values are closer in XGBoost than RF. Likewise, the MAE score of 171 for RF, and 60 for XGB indicates that the magnitude of difference between the prediction and the true value of the observation is lower in XGBoost than RF. Given this, XGBoost is considered more suitable in this context for predicting house prices given the data set. Furthermore, the value of the R-squared of 0.999 and 0.9984 for XGB and RF respectively also lends credence to this. While they are both “good” R-squared values, it however indicates that 99.9% and 99.8% of the variance of the dependent variable (house prices) is explained by the variance of the independent variable (features). 
 
+## Ranking Feature Importance 
+
 A summary of feature importance and ranking for the two algorithms are presented in Table 1 below. 
 ![image](https://github.com/JohnOlufemi/House-Price-Prediction/assets/104203741/0a0efb1b-e867-4200-ac71-2009b942a3c5)
